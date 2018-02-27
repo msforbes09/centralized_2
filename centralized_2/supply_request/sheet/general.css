@@ -1,0 +1,32 @@
+*::-webkit-scrollbar {
+    width: 0px;
+}
+.my_table{
+	width: 100%;
+	max-width: 100%;
+	font-family: Georgia;
+	font-size: 1.3rem;
+	background-color: transparent;
+	color: black;
+}
+.my_table td,
+.my_table th{
+	text-align: left;
+	padding: 0.5rem;
+	border: 1px solid rgba(200, 200, 200, 1);
+}
+.item_name{
+	letter-spacing: 3px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+.item_desc{
+	margin-left: 30px;
+	font-style: italic;
+}
+#request,
+#history{
+	border: 1px solid rgba(150, 150, 150, 1);
+	overflow-y:scroll;
+	padding: 2px;
+}

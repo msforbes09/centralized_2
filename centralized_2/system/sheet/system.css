@@ -1,0 +1,8 @@
+.system_update{
+	font-weight: bold;
+	cursor: pointer;
+}
+#copy{
+	cursor: pointer;
+	text-decoration: underline;
+}
